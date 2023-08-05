@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBM</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <h1>Complete Registration Form</h1>
+    <form action="http://127.0.0.1:5500/satish/form.html" method="get">
+        <img src="ibm.jpg" height="200" width="250">
+        <label for="name">Name</label>
+        <input type="text" name="Name" required>
+        <label>Gender</label>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select>
+        <label for="birthdaytime">Birthday(date and time):</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+        <label for="number">Mobile Number</label>
+        <input type="tel" name="number">
+        <p>Choose your Religion</p>
+        <label for="Indian">Hindu</label>
+        <input type="radio" name="Nationality"><br>
+        <label for="Austrilian">Christian</label>
+        <input type="radio" name="Nationality"><br>
+        <label for="American">Muslim</label>
+        <input type="radio" name="Nationality">
+        <label for="exp">Work Experience In Years</label>
+        <input type="number" name="exp" min="1" max="10">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="name" required>
+        <label for="phonenumber">phonenumber</label>
+        <input type="tel" name="tel" required>
+        <label for="job role">Job Role</label>
+        <input type="search" name="job role">
+        <label for="home">Add your project github links:</label>
+        <input type="url" name="home"><br>
+        <input type="url" name="home"><br>
+        <input type="url" name="home"><br>
+        <label for="appt">How many hours you can work per day</label>
+        <input type="time" name="appt">
+        <label for="pr">How much can you handle pressure..?</label>
+        <input type="range" name="pr">
+        <label for="rs">Upload your resume</label><br>
+        <input type="file" name="rs"><br><br>
+        <input type="button" onclick="alert('Carefully fill the required details')" value="small msg">
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
